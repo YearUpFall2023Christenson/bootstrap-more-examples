@@ -11,12 +11,78 @@
 
 
     <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">More Bootstrap Examples</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="examplecard.html">Cards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="exampleform.html">Forms</a>
+                  </li>
+                 
+                </ul>
 
+              </div>
+            </div>
+          </nav>
 
     </header>
 
-    <main>
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Home</h1>
 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Bootstrap Cards
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            A Bootstrap card is a flexible and extensible content container with multiple variants and options, often used in web design to display information in a neat, modular fashion, including images, text, and other UI elements.
+                        <a href="examplecard.html" class="btn btn-secondary">Show me more!</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Bootstrap Form
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            A Bootstrap form is a structured layout for collecting user input, enhanced with responsive styles and design elements, making it visually appealing and user-friendly across various devices and screen sizes.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+            </div>
+      
+        </div>
+
+               
 
     </main>
 
